@@ -1,0 +1,81 @@
+.wrapper{
+  height: 100vh;
+  background: url(https://github.com/mukesh462/image-for--tesla-clone/blob/main/images/model-s.jpg?raw=true);
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  padding-top: 12vh;
+  
+  
+  }
+  .head{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4vh;
+    font-weight: 600;
+    
+}
+.model{
+    
+font-size: 2em;
+margin: 0;
+}
+.plaid{
+    
+    margin: 0;
+}
+.text{
+    font-weight: 600;
+    color: white;
+    display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 15px;
+
+    justify-content: space-evenly;
+   
+    flex-wrap: wrap;
+ 
+}
+.span{
+    font-size: 1.5em;
+}
+.button{
+ border:3px white solid ;
+ text-transform: uppercase;
+width: 184px;
+height: 25px;
+text-align: center;
+border-radius: 15px;
+
+
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
+.span1,.span2,.span3,.span4,.order-now{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   margin: 5px;
+ 
+}
+
+.span{
+    padding: 1rem;
+ }
+
+/* mobile dont need touch */
+@media(max-width:789px){
+
+.span4{
+    display: none;
+}
+}

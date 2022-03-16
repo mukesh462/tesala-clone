@@ -1,0 +1,26 @@
+video{
+  height: 460px; 
+  width: 540px;
+  object-fit: cover;
+  object-position: center;
+ background-color: black;
+}
+.emptydiv{
+  height: 20vh;
+  width: 100vw;
+  background-color: black;
+}
+.slide_custom{
+padding-bottom: 20vh;
+background-color: black;
+
+
+}
+@media(max-width:789px){
+  video{
+      height: 360px; 
+      width: 640px;
+     background-color: black;
+     object-position: center;
+  }
+}
